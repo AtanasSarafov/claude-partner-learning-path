@@ -1,0 +1,11 @@
+[
+  {
+    "task": "Write a Python function that extracts the AWS region from an S3 bucket URL. For example, 'https://s3.us-west-2.amazonaws.com/my-bucket' should return 'us-west-2'."
+  },
+  {
+    "task": "Create a JSON CloudFormation template snippet that defines an AWS IAM policy allowing read-only access to a specific S3 bucket named 'my-data-bucket'."
+  },
+  {
+    "task": "Write a regular expression that validates AWS IAM role ARNs in the format 'arn:aws:iam::123456789012:role/RoleName'."
+  }
+]
