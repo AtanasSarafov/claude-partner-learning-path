@@ -1,0 +1,19 @@
+[
+  {
+    "output": "```json\n[\n  \"neural correlates of consciousness\",\n  \"binding problem\",\n  \"sensory integration\",\n  \"gamma-band oscillations\",\n  \"thalamocortical system\",\n  \"temporal binding\",\n  \"neural synchrony\",\n  \"qualia\",\n  \"phenomenal experience\",\n  \"materialism\",\n  \"epistemology of consciousness\",\n  \"predictive processing\",\n  \"Bayesian inference\",\n  \"perception and cognition\",\n  \"computational consciousness\"\n]\n```",
+    "test_case": {
+      "prompt_inputs": {
+        "content": "The neural correlates of consciousness have long puzzled philosophers and neuroscientists alike, particularly regarding the binding problem\u2014how disparate sensory inputs processed across distributed brain regions coalesce into unified conscious experience. Recent neuroimaging studies reveal that synchronized gamma-band oscillations in the thalamocortical system correlate with conscious perception, suggesting that temporal binding through neural synchrony may resolve the explanatory gap between physical brain processes and subjective phenomenal experience. However, this empirical approach raises deeper epistemological questions about whether objective neural measurements can ever fully explain the first-person qualitative nature of qualia, or whether consciousness remains fundamentally irreducible to materialist frameworks. Additionally, emerging research on predictive processing indicates that the brain constructs conscious experience through hierarchical Bayesian inference, challenging traditional distinctions between perception and cognition while simultaneously offering new perspectives on how consciousness might emerge from computational principles."
+      },
+      "solution_criteria": [
+        "Extracts all major conceptual areas without omitting topics at discipline boundaries (e.g., binding problem, neural synchrony, qualia, predictive processing)",
+        "Distinguishes between overlapping yet distinct topics (e.g., consciousness as a neuroscience phenomenon vs. consciousness as a philosophy-of-mind problem)",
+        "Returns output as a valid JSON array of strings with clear, concise topic labels"
+      ],
+      "task_description": "Extract topics out of a passage of text from a scholarly article into JSON array of strings",
+      "scenario": "Testing with a multi-disciplinary passage containing overlapping topics from psychology, neuroscience, and philosophy to verify accurate extraction of distinct conceptual areas and handling of ambiguous subject boundaries"
+    },
+    "score": 7,
+    "reasoning": "The solution meets all mandatory requirements: it is a valid JSON array of strings containing topics without commentary. Regarding secondary criteria, it successfully extracts topics across discipline boundaries and distinguishes overlapping concepts well. However, there are minor omissions of explicitly mentioned topics ('neuroimaging', 'explanatory gap') and one inferred topic ('sensory integration') that weakens comprehensiveness. The solution is strong overall but not exhaustive in capturing all major conceptual areas present in the passage."
+  }
+]
