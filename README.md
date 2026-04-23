@@ -45,6 +45,22 @@ Learn to integrate Claude with external tools and APIs:
 - **main.py** - Python functions for tool examples
 - **json_schema_prompt.txt** - JSON schema generation prompt
 
+### RAG (Retrieval-Augmented Generation) (`rag/`)
+Build intelligent systems that combine retrieval with generation:
+- **001_chunking.ipynb** - Document chunking strategies
+- **002_embeddings.ipynb** - Creating and working with embeddings
+- **003_vectordb.ipynb** - Vector database operations
+- **004_bm25.ipynb** - BM25 keyword search
+- **005_hybrid.ipynb** - Hybrid search combining semantic and keyword search
+- **report.md** - Sample document for RAG experiments
+
+### Claude Features (`claude_features/`)
+Explore advanced Claude capabilities:
+- **001_thinking.ipynb** - Introduction to Claude's thinking capabilities
+- **001_thinking_complete.ipynb** - Complete thinking workflow examples
+- **002_images.ipynb** - Image analysis with Claude
+- **images/** - Sample images for analysis
+
 ## Getting Started
 
 ### Prerequisites
@@ -95,6 +111,12 @@ Complete the `prompt_engineering` section to develop advanced prompt crafting sk
 ### 4. Learn Tools Use with Claude
 Explore the `tools_use_with_claude` section to understand how to integrate Claude with external tools and APIs for more powerful applications.
 
+### 5. Build RAG Systems
+Work through the `rag` section to learn retrieval-augmented generation techniques, from document chunking to hybrid search strategies.
+
+### 6. Explore Claude Features
+Discover advanced capabilities in the `claude_features` section, including thinking workflows and image analysis.
+
 ## Key Concepts
 
 - **System Prompts**: Setting behavior and context for Claude
@@ -106,6 +128,13 @@ Explore the `tools_use_with_claude` section to understand how to integrate Claud
 - **Tool Use**: Integrating Claude with external tools and APIs
 - **JSON Schema**: Defining tool interfaces for Claude
 - **Tool Streaming**: Real-time tool execution and response handling
+- **Document Chunking**: Breaking documents into manageable pieces for retrieval
+- **Embeddings**: Converting text to vector representations for semantic search
+- **Vector Databases**: Storing and searching high-dimensional vectors
+- **BM25**: Keyword-based ranking algorithm for information retrieval
+- **Hybrid Search**: Combining semantic and keyword search approaches
+- **Thinking Workflows**: Leveraging Claude's extended reasoning capabilities
+- **Image Analysis**: Processing and understanding visual content with Claude
 
 ## Resources
 
