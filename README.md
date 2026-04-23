@@ -31,6 +31,20 @@ Master the art and science of crafting effective prompts:
 - **003_exercise.ipynb** - Hands-on exercises for prompt engineering
 - **dataset.json** - Exercise dataset with scenarios and criteria
 
+### Tools Use with Claude (`tools_use_with_claude/`)
+Learn to integrate Claude with external tools and APIs:
+- **001_tools.ipynb** - Introduction to tool use with Claude
+- **002_tools_007.ipynb** - Tool use with Claude 3.7 Sonnet
+- **003_tools_008.ipynb** - Tool use with Claude 3.8 Sonnet
+- **004_tools_009.ipynb** - Tool use with Claude 3.9 Sonnet
+- **005_tool_streaming.ipynb** - Streaming responses with tools
+- **006_tool_streaming_completed.ipynb** - Complete tool streaming implementation
+- **007_text_editor_tool.ipynb** - Building a text editor tool
+- **008_web_search.ipynb** - Web search integration
+- **009_web_search_complete.ipynb** - Complete web search tool
+- **main.py** - Python functions for tool examples
+- **json_schema_prompt.txt** - JSON schema generation prompt
+
 ## Getting Started
 
 ### Prerequisites
@@ -78,6 +92,9 @@ Move to `prompt_evaluation` to understand how to systematically assess and impro
 ### 3. Master Prompt Engineering
 Complete the `prompt_engineering` section to develop advanced prompt crafting skills through hands-on exercises.
 
+### 4. Learn Tools Use with Claude
+Explore the `tools_use_with_claude` section to understand how to integrate Claude with external tools and APIs for more powerful applications.
+
 ## Key Concepts
 
 - **System Prompts**: Setting behavior and context for Claude
@@ -86,6 +103,9 @@ Complete the `prompt_engineering` section to develop advanced prompt crafting sk
 - **Prompt Evaluation**: Systematic assessment of prompt quality
 - **Solution Criteria**: Defining success metrics for prompts
 - **Iterative Improvement**: Using evaluation data to refine prompts
+- **Tool Use**: Integrating Claude with external tools and APIs
+- **JSON Schema**: Defining tool interfaces for Claude
+- **Tool Streaming**: Real-time tool execution and response handling
 
 ## Resources
 
