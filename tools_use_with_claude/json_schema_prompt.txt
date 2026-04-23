@@ -1,0 +1,11 @@
+Write a valid JSON schema spec for the purposes of tool calling for this Python function. 
+Follow the best practices listed in the Antropic documentation under this URL: 
+https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools
+
+
+```python
+def get_current_datetime(date_format="%Y-%m-%d %H:%M:%S"):
+    if not date_format:
+        raise ValueError("date_format is required")
+    return datetime.now().strftime(date_format)
+```
