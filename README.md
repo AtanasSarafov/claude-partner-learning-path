@@ -77,6 +77,22 @@ Build MCP servers and clients for extending Claude's capabilities:
   - **README.md** - Project documentation
   - **pyproject.toml** - Project dependencies and configuration
 
+### Claude Code (`claude_code/`)
+Build applications with Claude and MCP tools:
+- **app_starter/** - Starter application with MCP tools
+  - **main.py** - Application entry point
+  - **tools/** - MCP tool implementations
+    - **document.py** - Document conversion tools (PDF, DOCX to markdown)
+    - **file.py** - File reading tools
+    - **math.py** - Mathematical operation tools
+  - **tests/** - Test suite
+    - **test_document.py** - Document tool tests
+    - **test_file.py** - File tool tests
+    - **fixtures/** - Test fixtures (PDF, DOCX, markdown files)
+  - **README.md** - Project documentation
+  - **CLAUDE.md** - Claude-specific documentation
+  - **pyproject.toml** - Project dependencies and configuration
+
 ## Getting Started
 
 ### Prerequisites
@@ -136,6 +152,9 @@ Discover advanced capabilities in the `claude_features` section, including think
 ### 7. Build MCP Servers
 Work through the `mcp` section to learn how to build Model Context Protocol servers and clients for extending Claude's capabilities with tools, resources, and prompts.
 
+### 8. Build Claude Code Applications
+Explore the `claude_code` section to learn how to build applications with Claude and MCP tools, including document processing, file reading, and mathematical operations.
+
 ## Key Concepts
 
 - **System Prompts**: Setting behavior and context for Claude
@@ -163,6 +182,10 @@ Work through the `mcp` section to learn how to build Model Context Protocol serv
 - **MCP Clients**: Connecting to and interacting with MCP servers
 - **MCP Resources**: Exposing static data and documents through MCP
 - **MCP Prompts**: Reusable prompt templates through MCP
+- **Document Processing**: Converting PDFs and DOCX files to markdown
+- **File Reading**: Reading and processing local files with Claude
+- **MarkItDown**: Library for document-to-markdown conversion
+- **MCP Tool Implementation**: Building custom tools for MCP servers
 
 ## Resources
 
