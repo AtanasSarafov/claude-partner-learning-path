@@ -59,7 +59,23 @@ Explore advanced Claude capabilities:
 - **001_thinking.ipynb** - Introduction to Claude's thinking capabilities
 - **001_thinking_complete.ipynb** - Complete thinking workflow examples
 - **002_images.ipynb** - Image analysis with Claude
+- **003_pdf.ipynb** - PDF processing with Claude
+- **004_citations.ipynb** - Citations and references with Claude
+- **005_caching.ipynb** - Caching strategies with Claude
+- **006_code_execution.ipynb** - Code execution with Claude
 - **images/** - Sample images for analysis
+- **pdf/** - Sample PDFs for processing
+- **csv/** - Sample CSV data for analysis
+
+### MCP (Model Context Protocol) (`mcp/`)
+Build MCP servers and clients for extending Claude's capabilities:
+- **cli_project/** - Complete MCP CLI project with server and client
+  - **mcp_server.py** - MCP server with tools, resources, and prompts
+  - **mcp_client.py** - MCP client for server interaction
+  - **main.py** - CLI entry point
+  - **core/** - Core modules for chat, Claude integration, and tools
+  - **README.md** - Project documentation
+  - **pyproject.toml** - Project dependencies and configuration
 
 ## Getting Started
 
@@ -117,6 +133,9 @@ Work through the `rag` section to learn retrieval-augmented generation technique
 ### 6. Explore Claude Features
 Discover advanced capabilities in the `claude_features` section, including thinking workflows and image analysis.
 
+### 7. Build MCP Servers
+Work through the `mcp` section to learn how to build Model Context Protocol servers and clients for extending Claude's capabilities with tools, resources, and prompts.
+
 ## Key Concepts
 
 - **System Prompts**: Setting behavior and context for Claude
@@ -135,6 +154,15 @@ Discover advanced capabilities in the `claude_features` section, including think
 - **Hybrid Search**: Combining semantic and keyword search approaches
 - **Thinking Workflows**: Leveraging Claude's extended reasoning capabilities
 - **Image Analysis**: Processing and understanding visual content with Claude
+- **PDF Processing**: Extracting and analyzing content from PDF documents
+- **Citations**: Adding references and citations to Claude responses
+- **Caching**: Optimizing performance with caching strategies
+- **Code Execution**: Running and analyzing code with Claude
+- **MCP (Model Context Protocol)**: Standard for extending Claude with tools, resources, and prompts
+- **MCP Servers**: Building servers that expose tools and resources to Claude
+- **MCP Clients**: Connecting to and interacting with MCP servers
+- **MCP Resources**: Exposing static data and documents through MCP
+- **MCP Prompts**: Reusable prompt templates through MCP
 
 ## Resources
 
